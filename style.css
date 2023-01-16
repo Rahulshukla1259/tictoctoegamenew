@@ -1,0 +1,102 @@
+body{
+
+    margin: 0px;
+
+    padding: 0px;
+
+
+}
+
+*{
+
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+   
+}
+
+.text{
+    height: 50px;
+
+    width: 50px;
+
+    border: 2px solid black;
+
+    text-align: center;
+
+    padding:20px;
+
+    
+
+    
+
+   
+
+    
+}
+
+.game{
+
+    margin-left: 30vw;
+
+    margin-top: 30vh;
+}
+
+.bt{
+
+    border-top: 0px;
+}
+
+.bl{
+    border-left: 0px;
+}
+
+.br{
+    border-right: 0px;
+}
+
+.bb{
+    border-bottom: 0;
+}
+
+
+@media screen and (min-width: 100px) {
+   nav{
+
+    height: 28px ;
+   }
+   
+   
+   
+    h2 {
+      width: 1px;
+    }
+
+    .turn{
+
+        margin-top: 22px;
+
+        margin-left: 5px;
+    }
+
+    .win{
+        margin-left:25px ;
+    }
+
+    .game{
+
+        margin-top: 10vh;
+    }
+
+    .btn{
+    margin-top: 1px;
+
+    }
+    
+
+
+  }
+
+  
